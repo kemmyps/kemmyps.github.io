@@ -53,8 +53,10 @@ a {
 .separetor {
     display: flex;
     align-items: center;
-    border-top: 10px; /* Define uma linha de separação */
-    width: 100%;
+    border-top: 10px;
+}
+.separetor hr {
+    width: 100%
 }
 
 .container-apresentation p, .separetor, #name-class {
