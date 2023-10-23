@@ -1,0 +1,157 @@
+* {
+    font-family: "Apple LiGothic";
+;
+    padding: 0;
+    margin: 0;
+}
+/*ESTILOS DOS MENUS*/
+.menu {
+    text-decoration-color: white;
+    color: white;
+    background-color: black;
+    display: flex; /* Define o menu como um flex container */
+    justify-content: space-between; /* Alinha os elementos internos nas extremidades */
+    align-items: center; /* Centraliza verticalmente os elementos internos */
+}
+.logo {
+    font-size: 40px;
+}
+
+/*TODAS AS LISTAS*/
+* li {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o espaçamento interno da lista */
+}
+
+.content-menu li {
+    display: inline; /* Exibe os itens na horizontal */
+    margin-right: 20px; /* Adiciona espaço entre os itens */
+}
+
+/*TODOS OS LINKS DA PAGINA*/
+a {
+    text-decoration: none; /* Remove a formatação padrão */
+}
+
+/*SEPARADOR ENTRE AS PAGINAS*/
+.separetor {
+    display: flex;
+    align-items: center;
+    border-top: 10px; /* Define uma linha de separação */
+    width: 100%;
+}
+
+.container-apresentation p, .separetor, #name-class {
+    color: grey; /*cor da fonte das descrições e do separador*/
+}
+
+main {
+    margin: auto;
+}
+
+/*ESTILOS PRIMEIRA PARTE*/
+/*APLICANDO ESTILO PARA A PRIMEIRA PARTE COMPLETA*/
+.start {
+    padding: 10%;
+    display: flex;
+}
+
+.half-width {
+    font-size: 100px;
+    flex: 1;
+}
+.letter-style-right {
+    text-align: center;
+    padding-right: 50%;
+}
+
+.letter-double {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.data {
+    text-align: center;
+    padding-left: 10%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data span {
+    margin: 0;
+    text-align: center;
+}
+#my-name {
+    font-size: 30px;
+}
+#name-class {
+    font-size: 15px;
+}
+
+/*SEGUNDA PARTE - APRESENTAÇÃO PESSOAL */
+/*APLICANDO ESTILOS NA SEGUNDA PARTE COMPLETA*/
+.container-presentation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detailed-presentation {
+    flex: 1;
+    display: flex;
+    margin: 20px;
+}
+
+.first-box {
+    margin: auto;
+}
+.detailed-presentation-items {
+    /* Distribui o espaço igualmente entre as divs na horizontal */
+    flex: 1;
+    margin: auto;
+    max-width: 100%;
+}
+.detailed-presentation img { /*TAMANHO DA IMAGEM PERFIL*/
+    width: auto;
+    height: 300px;
+}
+.detailed-presentation #photo{
+    border:10px double #999;
+}
+
+.icons-information img{ /*TAMANHO DOS ICONES*/
+    width: auto;
+    height: 15px;
+    padding-right:2px;
+}
+
+.title-description {
+    font-weight: bold;
+    padding: 2% 5% 15% 5%;
+}
+
+.shields img{
+    width: auto;
+    height: 20px;
+}
+
+/*APLICANDO ESTILOS NA TERCEIRA PARTE COMPLETA*/
+.projects {
+    align-items: center;
+}
+.projects-list {
+    display: flex;
+    flex: 1;
+    padding: 5% 30%;
+}
+
+footer {
+    padding: 5%;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-size: xxx-large;
+}
