@@ -15,3 +15,4 @@ loadAndInsertContent('pages/content.html', 'content');
 
 // Carregar o conteúdo do rodapé (footer.html) e inserir na seção "footer"
 loadAndInsertContent('pages/footer.html', 'footer');
+

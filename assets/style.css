@@ -1,24 +1,39 @@
 * {
+    scroll-behavior: smooth;
     font-family: "Apple LiGothic";
 ;
     padding: 0;
     margin: 0;
 }
+:target {
+    scroll-margin-top: .8em;
+}
+header {
+    font-size: 25px;
+}
 /*ESTILOS DOS MENUS*/
 .menu {
+    text-transform: uppercase;
     text-decoration-color: white;
     color: white;
     background-color: black;
     display: flex; /* Define o menu como um flex container */
     justify-content: space-between; /* Alinha os elementos internos nas extremidades */
     align-items: center; /* Centraliza verticalmente os elementos internos */
+    position: fixed;
+    width: 100%;
 }
 .logo {
-    font-size: 40px;
+    font-size: 60px;
+    margin: auto 20px;
 }
 
 /*TODAS AS LISTAS*/
-* li {
+ul {
+    text-decoration: none; /* Remove a formatação padrão */
+
+}
+* li a{
     list-style-type: none; /* Remove os marcadores de lista */
     padding: 0; /* Remove o espaçamento interno da lista */
 }
@@ -30,6 +45,7 @@
 
 /*TODOS OS LINKS DA PAGINA*/
 a {
+    color: white;
     text-decoration: none; /* Remove a formatação padrão */
 }
 
