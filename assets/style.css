@@ -165,9 +165,17 @@ main {
 }
 
 footer {
-    padding: 5%;
+    display: flex;
     color: white;
+    justify-content: center;
+    align-items: center;
     background-color: black;
+    height: auto;
+    text-transform: uppercase;
+}
+
+footer div {
+    margin: 50px;
 }
 
 h1 {
