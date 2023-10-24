@@ -33,7 +33,7 @@ ul {
     text-decoration: none; /* Remove a formatação padrão */
 
 }
-* li a{
+* li {
     list-style-type: none; /* Remove os marcadores de lista */
     padding: 0; /* Remove o espaçamento interno da lista */
 }
