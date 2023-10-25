@@ -1,10 +1,10 @@
-# Landpage do Meu Portfólio
+# Meu Portfólio
 
 
 ## Objetivo
 
 Olá! Estou muito feliz de conseguir compartilhar meu segundo projeto de landpage com você!
-Esta é a landpage do meu portfólio, onde compartilho informações sobre mim, meus projetos e minhas redes sociais.
+Esta é a paginá web do meu portfólio, onde compartilho informações sobre mim, meus projetos e minhas redes sociais.
 
 ## Aprendizados
 
